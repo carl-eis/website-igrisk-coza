@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
     constructor() {
         this.slides_home = [
             new Slide({
-                "title" : "Get ready to reinvent the future!",
+                "title" : "Lorum ipsum dolor sit amet!",
                 "subtitle" : "Making great things, while making a difference",
                 "image_url" : "assets/images/slider/slider1_2.jpg",
                 "animation" : "animated4",
@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
                 "animation_subtitle" : "animated3"
             }),
             new Slide({
-                "title" : "Get ready to reinvent the future!",
+                "title" : "Lorum ipsum dolor sit amet!",
                 "subtitle" : "Making great things, while making a difference",
                 "image_url" : "assets/images/slider/slider1_1.jpg",
                 "animation" : "animated6",
@@ -29,7 +29,7 @@ export class HomeComponent implements OnInit {
                 "animation_subtitle" : "animated5"
             }),
             new Slide({
-                "title" : "Get ready to reinvent the future!",
+                "title" : "Lorum ipsum dolor sit amet!",
                 "subtitle" : "Making great things, while making a difference",
                 "image_url" : "assets/images/slider/slider1_3.jpg",
                 "animation" : "animated4",
