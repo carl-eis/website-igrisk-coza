@@ -1,0 +1,9 @@
+.nav {
+    li {
+        a {
+            &:focus, &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+}

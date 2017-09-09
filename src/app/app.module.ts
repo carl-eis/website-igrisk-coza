@@ -10,12 +10,20 @@ import {HomeComponent} from './pages/home/home.component';
 import {LoginComponent} from './pages/login/login.component';
 
 import {DataService} from "./services/data.service";
+import {NavbarComponent} from './components/navbar/navbar.component';
+import {SliderMainComponent} from './components/slider-main/slider-main.component';
+import {AboutSectionComponent} from './components/about-section/about-section.component';
+import {AboutImageBlockComponent} from './components/about-image-block/about-image-block.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         HomeComponent,
-        LoginComponent
+        LoginComponent,
+        NavbarComponent,
+        SliderMainComponent,
+        AboutSectionComponent,
+        AboutImageBlockComponent
     ],
     imports: [
         BrowserModule,

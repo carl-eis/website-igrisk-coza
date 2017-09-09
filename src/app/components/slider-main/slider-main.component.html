@@ -1,0 +1,25 @@
+<!-- Slider start -->
+<section id="home" class="no-padding">
+    <div id="main-slide" class="ts-flex-slider">
+        <div class="flexSlideshow flexslider">
+            <ul class="slides">
+                <li *ngFor="let slide of slides">
+                    <div class="overlay2">
+                        <img class="slide-image" [src]="slide.image_url" alt="slider">
+                    </div>
+                    <div class="flex-caption slider-content">
+                        <div class="col-md-12 text-center">
+                            <h2 [class]="slide.animation_title">
+                                {{slide.title}}
+                            </h2>
+                            <h3 [class]="slide.animation_subtitle">
+                                {{slide.subtitle}}
+                            </h3>
+                            <p [class]="slide.animation"><a href="#" class="slider btn btn-primary white">Check Now</a></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div><!--/ Main slider end -->
+</section> <!--/ Slider end -->
