@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {Slide} from "../../components/slider-main/slide";
+import {Slide} from "../../components/homepage/slider-main/slide";
 
 @Component({
     selector: 'app-home',

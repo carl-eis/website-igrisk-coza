@@ -1961,6 +1961,12 @@ flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
+flexslider@^2.6.4:
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/flexslider/-/flexslider-2.6.4.tgz#d81fb58b342f9e3e8f497ee8198a35ab8777d9e0"
+  dependencies:
+    jquery ">=1.11.3"
+
 for-each@~0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/for-each/-/for-each-0.3.2.tgz#2c40450b9348e97f281322593ba96704b9abd4d4"
@@ -2822,6 +2828,10 @@ jasmine@^2.5.3:
 jasminewd2@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/jasminewd2/-/jasminewd2-2.1.0.tgz#da595275d1ae631de736ac0a7c7d85c9f73ef652"
+
+jquery@>=1.11.3:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
 
 js-base64@^2.1.5, js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.1.9"

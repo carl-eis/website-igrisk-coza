@@ -1,5 +1,12 @@
 import {Component, OnInit, Input} from '@angular/core';
 import {Slide} from "./slide";
+declare var $: any;
+// let $: any;
+// import * as $ from 'jquery';
+// import * as flexslider from 'flexslider';
+// flexslider.
+// let flexslider: any;
+
 
 @Component({
     selector: 'app-slider-main',
@@ -8,19 +15,23 @@ import {Slide} from "./slide";
 })
 export class SliderMainComponent implements OnInit, Input {
 
-    // slides: Slide[];
     @Input() slides: Slide[];
 
     constructor() {
-        // this.setupSlides();
+
     }
 
     ngOnInit() {
-
+        this.setupSlides();
     }
 
     setupSlides(): void {
-        // this.slides =
+        $(document).ready(() => {
+            $('.flexSlideshow').flexslider({
+                slideshowSpeed: 5000,
+                animationSpeed: 600,
+            });
+        });
     }
 
 }

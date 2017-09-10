@@ -21,7 +21,22 @@
             "styles": [
                 "./styles/main.scss"
             ],
-            "scripts": [],
+            "scripts": [
+                "assets/vendor/bootstrap/js/bootstrap.min.js",
+                "assets/vendor/theme/style-switcher.js",
+                "assets/vendor/theme/owl.carousel.js",
+                "assets/vendor/theme/jquery.prettyPhoto.js",
+                "assets/vendor/theme/jquery.flexslider.js",
+                "assets/vendor/theme/cd-hero.js",
+                "assets/vendor/theme/isotope.js",
+                "assets/vendor/theme/ini.isotope.js",
+                "assets/vendor/theme/wow.min.js",
+                "assets/vendor/theme/smoothscroll.js",
+                "assets/vendor/theme/jquery.easing.1.3.js",
+                "assets/vendor/theme/jquery.counterup.min.js",
+                "assets/vendor/theme/jquery.waypoints.js",
+                "assets/vendor/theme/custom.js"
+            ],
             "environmentSource": "environments/environment.ts",
             "environments": {
                 "dev": "environments/environment.ts",
