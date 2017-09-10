@@ -24,6 +24,10 @@ import {FooterComponent} from './components/footer/footer.component';
 import {AboutUsComponent} from './pages/about-us/about-us.component';
 import {TestimonialsBriefComponent} from './components/homepage/testimonials-brief/testimonials-brief.component';
 import {PageHeaderComponent} from './components/utility/page-header/page-header.component';
+import { ServicesComponent } from './pages/services/services.component';
+import { ServicesHexWidgetComponent } from './components/widgets/services-hex-widget/services-hex-widget.component';
+import { ServicesMultiWidgetComponent } from './components/widgets/services-multi-widget/services-multi-widget.component';
+import { PageBannerComponent } from './components/utility/page-banner/page-banner.component';
 
 @NgModule({
     declarations: [
@@ -43,7 +47,11 @@ import {PageHeaderComponent} from './components/utility/page-header/page-header.
         FooterComponent,
         AboutUsComponent,
         TestimonialsBriefComponent,
-        PageHeaderComponent
+        PageHeaderComponent,
+        ServicesComponent,
+        ServicesHexWidgetComponent,
+        ServicesMultiWidgetComponent,
+        PageBannerComponent
     ],
     imports: [
         BrowserModule,

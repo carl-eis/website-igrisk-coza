@@ -1,0 +1,61 @@
+<section id="main-container">
+    <div class="container">
+
+        <!-- Services -->
+
+        <div class="row">
+            <div class="col-md-12 heading">
+                <span class="title-icon classic pull-left"><i class="fa fa-cogs"></i></span>
+                <h2 class="title classic">Our Services</h2>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay=".5s" *ngFor="let service of services">
+                <div class="service-content">
+                    <span class="service-image"><img class="img-responsive" src="assets/vendor/images/pages/service-1.jpg" alt="" /></span>
+                    <h3>{{service.name}}</h3>
+                    <p *ngIf="service.description">{{service.description}}</p>
+                    <ul *ngIf="service.list">
+                        <li *ngFor="let item of service.list">{{item}}</li>
+                    </ul>
+                </div>
+            </div><!--/ End first service -->
+
+            <!--<div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay=".5s">-->
+                <!--<div class="service-content">-->
+                    <!--<span class="service-image"><img class="img-responsive" src="assets/vendor/images/pages/service-1.jpg" alt="" /></span>-->
+                    <!--<h3>Multipurpose Concept</h3>-->
+                    <!--<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor sollicitudin, adipisicing elit sed lorem quis bibendum auctor.</p>-->
+                <!--</div>-->
+            <!--</div>&lt;!&ndash;/ End first service &ndash;&gt;-->
+
+            <!--<div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay=".8s" >-->
+                <!--<div class="service-content">-->
+                    <!--<span class="service-image"><img class="img-responsive" src="assets/vendor/images/pages/service-1.jpg" alt="" /></span>-->
+                    <!--<h3>Parallax Section</h3>-->
+                    <!--<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor sollicitudin, adipisicing elit sed lorem quis bibendum auctor.</p>-->
+                <!--</div>-->
+
+            <!--</div>&lt;!&ndash;/ End Second features &ndash;&gt;-->
+
+            <!--<div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay="1.1s">-->
+                <!--<div class="service-content">-->
+                    <!--<span class="service-image"><img class="img-responsive" src="assets/vendor/images/pages/service-1.jpg" alt="" /></span>-->
+                    <!--<h3>Light wight Performance</h3>-->
+                    <!--<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor sollicitudin, adipisicing elit sed lorem quis bibendum auctor.</p>-->
+                <!--</div>-->
+            <!--</div>&lt;!&ndash;/ End Third features &ndash;&gt;-->
+
+        </div><!-- Content Row end -->
+
+
+        <!-- Services end -->
+
+
+    </div><!--/ 1st container end -->
+
+
+    <div class="gap-60"></div>
+</section><!--/ Main container end -->

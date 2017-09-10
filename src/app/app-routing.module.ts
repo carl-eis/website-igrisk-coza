@@ -2,10 +2,12 @@ import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
 
+
 // Import Page Components
 import {LoginComponent} from "./pages/login/login.component";
 import {HomeComponent} from "./pages/home/home.component";
 import {AboutUsComponent} from "./pages/about-us/about-us.component";
+import {ServicesComponent} from "./pages/services/services.component";
 
 const routes: Routes = [
 
@@ -15,6 +17,7 @@ const routes: Routes = [
     {path: 'login', component: LoginComponent},
     {path: 'home', component: HomeComponent},
     {path: 'about', component: AboutUsComponent},
+    {path: 'services', component: ServicesComponent}
     // {path: 'search', component: SearchComponent},
     // {path: 'abalobifn', component: AbalobifnComponent,
     //     children: [

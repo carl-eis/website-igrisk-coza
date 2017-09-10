@@ -1,0 +1,15 @@
+<div class="animated fadeInRight">
+    <!--<app-page-header></app-page-header>-->
+    <app-page-banner
+        name="Services"
+        image="assets/vendor/images/banner/banner2.jpg"
+    ></app-page-banner>
+        <!--<app-home-service-box></app-home-service-box>-->
+    <app-services-multi-widget
+        [services]="this.services"
+    ></app-services-multi-widget>
+    <app-services-hex-widget
+        [services]="this.services"
+    ></app-services-hex-widget>
+    <app-footer></app-footer>
+</div>

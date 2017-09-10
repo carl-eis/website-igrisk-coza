@@ -1,5 +1,5 @@
 import {Component, OnInit, Input} from '@angular/core';
-import {Slide} from "./slide";
+import {Slide} from "../../../classes/slide";
 declare var $: any;
 // let $: any;
 // import * as $ from 'jquery';
