@@ -11,9 +11,9 @@
                     <span class="icon-bar"></span>
                 </button>
                 <div class="navbar-brand">
-                    <a href="index.html">
+                    <a routerLink="home" (click)="nav_clicked()">
                         <!--<img class="img-responsive" src="assets/vendor/images/logo.png" alt="logo">-->
-                        <h4>IGRisk</h4>
+                        <h4>The Investment Group</h4>
                     </a>
                 </div>
             </div><!--/ Logo end -->
@@ -21,11 +21,11 @@
                 <ul class="nav navbar-nav navbar-right">
 
                     <li class="dropdown" routerLinkActive="active" *ngFor="let link of navitems">
-                        <a [routerLink]="link.path" class="dropdown-toggle" data-toggle="dropdown">{{link.name}} </a>
+                        <a [routerLink]="link.path" (click)="nav_clicked()" class="dropdown-toggle" data-toggle="dropdown">{{link.name}} </a>
                         <div class="dropdown-menu" *ngIf="!!link.children">
                             <ul>
                                 <li *ngFor="let child of link.children">
-                                    <a [routerLink]="child.path">{{child.name}}</a>
+                                    <a [routerLink]="child.path" (click)="nav_clicked()">{{child.name}}</a>
                                 </li>
                             </ul>
                         </div>

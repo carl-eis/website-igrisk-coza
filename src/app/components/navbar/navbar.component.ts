@@ -52,6 +52,10 @@ export class NavbarComponent implements OnInit {
         });
     }
 
+    nav_clicked(): void {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }
+
 
 
 }
