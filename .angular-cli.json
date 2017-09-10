@@ -35,7 +35,8 @@
                 "assets/vendor/theme/jquery.easing.1.3.js",
                 "assets/vendor/theme/jquery.counterup.min.js",
                 "assets/vendor/theme/jquery.waypoints.js",
-                "assets/vendor/theme/custom.js"
+                "assets/vendor/theme/custom.js",
+                "../node_modules/masonry-layout"
             ],
             "environmentSource": "environments/environment.ts",
             "environments": {
