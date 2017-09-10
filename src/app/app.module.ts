@@ -24,10 +24,14 @@ import {FooterComponent} from './components/footer/footer.component';
 import {AboutUsComponent} from './pages/about-us/about-us.component';
 import {TestimonialsBriefComponent} from './components/homepage/testimonials-brief/testimonials-brief.component';
 import {PageHeaderComponent} from './components/utility/page-header/page-header.component';
-import { ServicesComponent } from './pages/services/services.component';
-import { ServicesHexWidgetComponent } from './components/widgets/services-hex-widget/services-hex-widget.component';
-import { ServicesMultiWidgetComponent } from './components/widgets/services-multi-widget/services-multi-widget.component';
-import { PageBannerComponent } from './components/utility/page-banner/page-banner.component';
+import {ServicesComponent} from './pages/services/services.component';
+import {ServicesHexWidgetComponent} from './components/widgets/services-hex-widget/services-hex-widget.component';
+import {ServicesMultiWidgetComponent} from './components/widgets/services-multi-widget/services-multi-widget.component';
+import {PageBannerComponent} from './components/utility/page-banner/page-banner.component';
+import {ClientsComponent} from './pages/clients/clients.component';
+import {TeamComponent} from './pages/team/team.component';
+import {ContactComponent} from './pages/contact/contact.component';
+import { TradingviewOverviewComponent } from './components/widgets/tradingview-overview/tradingview-overview.component';
 
 @NgModule({
     declarations: [
@@ -51,7 +55,11 @@ import { PageBannerComponent } from './components/utility/page-banner/page-banne
         ServicesComponent,
         ServicesHexWidgetComponent,
         ServicesMultiWidgetComponent,
-        PageBannerComponent
+        PageBannerComponent,
+        ClientsComponent,
+        TeamComponent,
+        ContactComponent,
+        TradingviewOverviewComponent
     ],
     imports: [
         BrowserModule,

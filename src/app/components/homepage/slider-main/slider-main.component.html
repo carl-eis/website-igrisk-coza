@@ -15,7 +15,7 @@
                             <h3 [class]="slide.animation_subtitle">
                                 {{slide.subtitle}}
                             </h3>
-                            <p [class]="slide.animation"><a href="#" class="slider btn btn-primary white">Check Now</a></p>
+                            <p [class]="slide.animation" *ngIf="slide.display_button === true"><a href="#" class="slider btn btn-primary white">Check Now</a></p>
                         </div>
                     </div>
                 </li>

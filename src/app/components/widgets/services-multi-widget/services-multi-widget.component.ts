@@ -20,6 +20,9 @@ export class ServicesMultiWidgetComponent implements OnInit, Input {
 
     ngOnInit() {
         this.runMasonry();
+        setTimeout(() => {
+            this.runMasonry();
+        }, 1000);
     }
 
     runMasonry(): void {
@@ -28,16 +31,9 @@ export class ServicesMultiWidgetComponent implements OnInit, Input {
             //     itemSelector: '.col-md-4'
             // });
             $(() => {
-                console.log("Mathing height");
                 $('.service-box').matchHeight();
             });
-
-
         });
-    }
-
-    addService(): void {
-
     }
 
 }

@@ -24,76 +24,6 @@
 jQuery(function($) {
     "use strict";
 
-
-    /* ----------------------------------------------------------- */
-    /*  Style Switcher
-    /* ----------------------------------------------------------- */
-
-    // (function($) { "use strict";
-    //     $(document).ready(function(){
-    //         $('.style-switch-button').click(function(){
-    //             $('.style-switch-wrapper').toggleClass('active');
-    //         });
-    //         $('a.close-styler').click(function(){
-    //             $('.style-switch-wrapper').removeClass('active');
-    //         });
-    //     });
-    // })(jQuery);
-
-
-
-    /* ----------------------------------------------------------- */
-    /*  Fixed header
-    /* ----------------------------------------------------------- */
-
-    // $(window).on('scroll', function(){
-    //
-    //     if( $(window).scrollTop()>100 ){
-    //
-    //         $('.header').addClass('header-solid animated fadeInDown');
-    //     }
-    //     else {
-    //
-    //         $('.header').removeClass('header-solid animated fadeInDown');
-    //
-    //     }
-    //
-    // });
-    //
-    // $(window).on('scroll', function(){
-    //
-    //     if( $(window).scrollTop()>200 ){
-    //
-    //         $('.header2').addClass('header-bgnone animated fadeInDown');
-    //     }
-    //     else {
-    //
-    //         $('.header2').removeClass('header-bgnone animated fadeInDown');
-    //
-    //     }
-    //
-    // });
-
-
-
-    /* ----------------------------------------------------------- */
-    /*  Main slideshow
-    /* ----------------------------------------------------------- */
-
-    /* Home 2 */
-
-    // $('.flexSlideshow').flexslider({
-    //     slideshowSpeed: 5000,
-    //     animationSpeed: 600,
-    // });
-
-    /* Home 3 and 4 */
-
-    // $('#main-slide').carousel({
-    //     pause: true,
-    //     interval: 100000,
-    // });
-
     $('#main-slide').carousel({
         pause: true,
         interval: 100000
@@ -105,26 +35,6 @@ jQuery(function($) {
         directionNav: true,
         slideshowSpeed: 8000
     });
-
-
-    /* ----------------------------------------------------------- */
-    /*  Counter
-    /* ----------------------------------------------------------- */
-
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
-
-
-
-    /* ----------------------------------------------------------- */
-    /*  Owl Carousel
-    /* ----------------------------------------------------------- */
-
-
-
-
 
     //Clients
 

@@ -25,9 +25,10 @@ export class NavbarComponent implements OnInit {
             {name: "Home", path: "home"},
             {name: "About Us", path: "about", children: [
                 {name: "About Us", path: "about"},
-                {name: "Services", path: "services"}
+                {name: "Meet the team", path: "team"}
             ]},
-            {name: "Clients", path: "about"}
+            {name: "Services", path: "services"},
+            {name: "Clients", path: "clients"}
         ];
     }
 

@@ -8,6 +8,8 @@ export class Slide {
     animation_title: string;
     animation_subtitle: string;
 
+    display_button: boolean;
+
     constructor(init: any) {
         if (!!init) {
             for (const key in init) {

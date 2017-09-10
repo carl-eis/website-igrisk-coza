@@ -12,25 +12,26 @@ export class HomeComponent implements OnInit {
 
     constructor() {
         this.slides_home = [
+            // new Slide({
+            //     "title" : "The Investment Group",
+            //     "subtitle" : "Testing",
+            //     "image_url" : "assets/images/slider/ig3.png",
+            //     "animation" : "animated4",
+            //     "animation_title" : "animated2",
+            //     "animation_subtitle" : "animated3",
+            //     "display_button" : false
+            // }),
             new Slide({
-                "title" : "Lorum ipsum dolor sit amet!",
-                "subtitle" : "Making great things, while making a difference",
+                "title" : "The Investment Group",
+                "subtitle" : "Growing your future",
                 "image_url" : "assets/images/slider/slider1_2.jpg",
-                "animation" : "animated4",
-                "animation_title" : "animated2",
-                "animation_subtitle" : "animated3"
-            }),
-            new Slide({
-                "title" : "Lorum ipsum dolor sit amet!",
-                "subtitle" : "Making great things, while making a difference",
-                "image_url" : "assets/images/slider/slider1_1.jpg",
                 "animation" : "animated6",
-                "animation_title" : "animated4",
-                "animation_subtitle" : "animated5"
+                "animation_title" : "animated5",
+                "animation_subtitle" : "animated4"
             }),
             new Slide({
-                "title" : "Lorum ipsum dolor sit amet!",
-                "subtitle" : "Making great things, while making a difference",
+                "title" : "The Investment Group",
+                "subtitle" : "Caring for our customers",
                 "image_url" : "assets/images/slider/slider1_3.jpg",
                 "animation" : "animated4",
                 "animation_title" : "animated7",

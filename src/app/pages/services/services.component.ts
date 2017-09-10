@@ -50,6 +50,19 @@ export class ServicesComponent implements OnInit {
                 ]
             }),
             new Service({
+                name: "Risk and Insurance",
+                description: "",
+                image: "",
+                icon: "",
+                list: [
+                    "Evaluation of personal Risk Cover",
+                    "Disability and Life Insurance",
+                    "Dread disease cover",
+                    "Income Protection",
+                    "Buy and sell agreements"
+                ]
+            }),
+            new Service({
                 name: "Retirement Planning",
                 description: "",
                 image: "",
@@ -93,19 +106,6 @@ export class ServicesComponent implements OnInit {
                     "Local & Offshore Trust Setup",
                     "Professional Trusteeship",
                     "Trust investment management"
-                ]
-            }),
-            new Service({
-                name: "Risk and Insurance",
-                description: "",
-                image: "",
-                icon: "",
-                list: [
-                    "Evaluation of personal Risk Cover",
-                    "Disability and Life Insurance",
-                    "Dread disease cover",
-                    "Income Protection",
-                    "Buy and sell agreements"
                 ]
             }),
         ];

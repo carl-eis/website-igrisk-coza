@@ -8,6 +8,8 @@ import {LoginComponent} from "./pages/login/login.component";
 import {HomeComponent} from "./pages/home/home.component";
 import {AboutUsComponent} from "./pages/about-us/about-us.component";
 import {ServicesComponent} from "./pages/services/services.component";
+import {ClientsComponent} from "./pages/clients/clients.component";
+import {TeamComponent} from "./pages/team/team.component";
 
 const routes: Routes = [
 
@@ -17,7 +19,9 @@ const routes: Routes = [
     {path: 'login', component: LoginComponent},
     {path: 'home', component: HomeComponent},
     {path: 'about', component: AboutUsComponent},
-    {path: 'services', component: ServicesComponent}
+    {path: 'services', component: ServicesComponent},
+    {path: 'clients', component: ClientsComponent},
+    {path: 'team', component: TeamComponent}
     // {path: 'search', component: SearchComponent},
     // {path: 'abalobifn', component: AbalobifnComponent,
     //     children: [
